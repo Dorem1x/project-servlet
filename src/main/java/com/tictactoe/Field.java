@@ -8,6 +8,7 @@ import java.util.stream.Collectors;
 public class Field {
     private final Map<Integer, Sign> field;
 
+
     public Field() {
         field = new HashMap<>();
         field.put(0, Sign.EMPTY);
